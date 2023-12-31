@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(222, 220, 224);
+}
+
+.container
+{
+    margin: 120px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left
+{
+    width: 40%;
+}
+
+h1
+{
+    color: royalblue;
+    font-size: 50px;
+}
+
+h3
+{
+    color: black;
+    font-size: 0.85rem;
+}
+
+.right
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginpage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 250px;
+    height: 220px;
+    box-shadow: -10px -10px 15px rgb(0,0,0,0.1),
+    10px 10px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+input
+{
+    width: 200px;
+    height: 30px;
+    margin: 4px 0px;
+    padding: 0px 0px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+input[type="submit"]
+{
+    background-color: rgb(29, 71, 197);
+    color: #fff;
+}
+
+p
+{
+    color: rgb(29, 71, 197);  
+}
+
+hr
+{
+    border: 1px solid #ccc;
+    width: 200px;
+    margin: 10px;
+}
+
+.create-account
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 5px;
+}
+
+span
+{
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 20px;
+}
